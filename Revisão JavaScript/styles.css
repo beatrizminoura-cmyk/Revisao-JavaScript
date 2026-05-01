@@ -1,0 +1,55 @@
+/* Configuração do Body: Centralização total e fonte */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fefefe;
+}
+
+/* Box Model do Container: padding, bordas e sombra */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Responsividade básica: largura máxima */
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Estilização do campo de entrada */
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Ocupa largura total no container */
+    box-sizing: border-box;
+}
+
+/* Botão: cores, espaçamento e cursor */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Efeito Hover para interatividade */
+button:hover {
+    background-color: #005663;
+}
+
+/* Estilo do parágrafo de mensagem */
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
